@@ -3,9 +3,11 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div class="bg-gray-700 h-screen text:gray-300">
+    <div className={styles.container} class="dark: text-gray-100">
       <Header />
-      njwiebnrw
+        <form>
+            
+        </form>
     </div>
   )
 }
